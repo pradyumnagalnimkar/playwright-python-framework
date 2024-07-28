@@ -4,6 +4,7 @@ OHRM-Playwright is a comprehensive test automation framework for OrangeHRM, util
 # Key Features:
 1. Playwright Integration: Leverages the power of Playwright for fast and reliable end-to-end testing.
 2. Python Based: Written in Python for ease of use and integration with other tools and libraries.
-3. Page Object Model: Implements the Page Object Model (POM) design pattern for clean and maintainable code.
-4. Flexible Configuration: Allows easy configuration and customization to fit different testing needs.
-5. Detailed Reporting: Provides comprehensive allure test reports to help analyze test results and track issues.
+3. Page Object Model: Implements the Page Object Model (POM) design pattern for clean and maintainable
+4. Singleton: Implements singleton design pattern for purpose of logging utilised in framework. 
+5. Flexible Configuration: Allows easy configuration and customization to fit different testing needs.
+6. Detailed Reporting: Provides comprehensive allure test reports to help analyze test results and track issues.
