@@ -2,3 +2,4 @@ playwright == 1.45.1
 pytest == 8.3.2
 allure-pytest == 2.11.1
 pytest-playwright == 0.5.1
+pytest-dotenv == 0.5.2
