@@ -17,3 +17,4 @@ class LoginPage(BasePage):
         self.username_textbox.fill(username)
         self.password_textbox.fill(password)
         self.login_button.click()
+

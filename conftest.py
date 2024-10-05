@@ -13,4 +13,5 @@ def login_to_app(page):
     login_page = LoginPage(page)
     login_page.load()
     login_page.login(os.getenv('USERNAME'), os.getenv('PASSWORD'))
+    login_page.dashboard_link.wait_for()
 
