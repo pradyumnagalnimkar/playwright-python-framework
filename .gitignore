@@ -3,3 +3,4 @@ venv/
 *.env
 *.pyc
 logs/
+test_results/
