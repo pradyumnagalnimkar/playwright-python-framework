@@ -5,7 +5,7 @@ from pages.base_page import  BasePage
 class LoginPage(BasePage):
     def __init__(self, page):
         super().__init__(page)
-        self.url = "/"
+        self.url = "/auth/login"
 
         """WebElement Locators"""
         self.username_textbox = self.page.get_by_placeholder("Username")
