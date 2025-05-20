@@ -5,7 +5,7 @@ from pages.base_page import BasePage
 class UserManagement(BasePage):
     def __init__(self, page):
         super().__init__(page)
-        self.url = '/admin/viewSystemUsers'
+        self.url = 'web/index.php/admin/viewSystemUsers'
 
         """WebElement Locators"""
         self.add_user_button = self.page.get_by_role("button", name="Add")
