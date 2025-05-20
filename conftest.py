@@ -32,7 +32,7 @@ def test_data():
     random_string = get_random_string(6)
     d = dict()
     d['user_role'] = random.choice(['Admin', 'ESS'])
-    d['employee_name'] = "Carolin Frank Jenkins"
+    d['employee_name'] = random.choice(['Joseph  Evans', 'Joy Smith', 'Emily Jones'])
     d['status'] = random.choice([True, False])
     d['username'] = 'name_'+random_string
     d['password'] = "pass_"+random_string
